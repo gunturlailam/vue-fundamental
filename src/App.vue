@@ -1,7 +1,5 @@
 <script setup>
 import MainButton  from './components/MainButton.vue';
-import OptionsComponent from './components/OptionsComponent.vue';
-import CompositionComponent from './components/CompositionComponent.vue';
 </script>
 
 <template>
@@ -10,7 +8,7 @@ import CompositionComponent from './components/CompositionComponent.vue';
   <MainButton/>
   <p>Guntur Lailam Yuro</p>
   <OptionsComponent/>
-  <CompositionComponent/>
+  <composition-component/>
 </template>
 
 <style scoped>
