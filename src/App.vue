@@ -1,8 +1,12 @@
 <script setup>
+import MainButton  from './components/MainButton.vue';
 </script>
 
 <template>
-  <h1>Hello World</h1>
+  <MainButton/>
+  <MainButton/>
+  <MainButton/>
+  <p>Guntur Lailam Yuro</p>
 </template>
 
 <style scoped>
