@@ -4,6 +4,11 @@ export default {
         return{
             name:'Guntur Lailam Yuro'
         }
+    },
+    methods:{
+        showName(){
+            console.log(this.name)
+        }
     }
 }
 </script>
